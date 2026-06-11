@@ -1,28 +1,28 @@
 class AperionShield < Formula
   desc "Local MCP guardrail for AI coding agents (Cursor, Claude Code, ...)"
   homepage "https://github.com/AperionAI/shield"
-  version "0.9.1"
+  version "1.0.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v0.9.1/aperion-shield-shield-v0.9.1-aarch64-apple-darwin.tar.gz"
-      sha256 "f4f33412c1897b6f02ac4f3a80c5de3fec8fe5ad40b76085f59b551706062b63"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.0.1/aperion-shield-shield-v1.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "3f462bfb1ee25c3acd4f927fb0fa023a2be6696348392110b0d13d43e9ffef02"
     end
     on_intel do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v0.9.1/aperion-shield-shield-v0.9.1-x86_64-apple-darwin.tar.gz"
-      sha256 "1bc21254a543e37e7861b61a79790a617437ffb74f783e5542583844db3e7625"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.0.1/aperion-shield-shield-v1.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "09cfca9c6f99a9063ed480b798b81f17ea999b0cb39307948e47cca87a8d7187"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v0.9.1/aperion-shield-shield-v0.9.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "54f226f4ed96de069bb3f2f538347cf42323e98f964544409ea937c7635380b4"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.0.1/aperion-shield-shield-v1.0.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7da0428004f4d319cda67cca122d1a897927e8f97f9f9a525ec79671a124f121"
     end
     on_intel do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v0.9.1/aperion-shield-shield-v0.9.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "46a56190f5b8f14a0c3c330933e2c7ee8e69777762d81b7f3db5c7f1b46458ca"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.0.1/aperion-shield-shield-v1.0.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9b24f5411625051bb8456152492898bd563d29d2b06bbad71db1ccfb15307a23"
     end
   end
 
