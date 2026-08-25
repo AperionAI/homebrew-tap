@@ -1,28 +1,28 @@
 class AperionShield < Formula
   desc "Local MCP guardrail for AI coding agents (Cursor, Claude Code, ...)"
   homepage "https://github.com/AperionAI/shield"
-  version "1.5.0"
+  version "1.6.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.5.0/aperion-shield-shield-v1.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "00993a8413d0004a957e7de3e0e1e6d610c178b14cdeabe6e9adada218f46fdc"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.6.0/aperion-shield-shield-v1.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "aa926b9a3b9644ff789752aef4e56b13bb1b0235f50efc045c0913ae3d604561"
     end
     on_intel do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.5.0/aperion-shield-shield-v1.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8ba3e6619e488619c143463b1d5d5d1c1f3bf08d8d25e46f86b0a190eb1f2f9c"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.6.0/aperion-shield-shield-v1.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e23cf0341707df091b79eb767d80a0d1a77b4f67f4f8493924e6b32a2ed85a83"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.5.0/aperion-shield-shield-v1.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3ea50b56e8880a0deb30ee0506bc14b9ba63b965381fa09486c33a8bfd837f8c"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.6.0/aperion-shield-shield-v1.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fb4101f0884a3cd6f74449f3b8212492f214b52dbf1547a839a9872565441597"
     end
     on_intel do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.5.0/aperion-shield-shield-v1.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "79dfeb5a3e9d71e8ab5554faacf3eb14b6929bd6f78be549d0f2a9a7a3433565"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.6.0/aperion-shield-shield-v1.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e5d159b96ef9b8f8ae886c0d7d350782ac1667dd1f098ea5fc6eabbe12f87cea"
     end
   end
 
