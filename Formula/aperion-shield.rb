@@ -1,28 +1,28 @@
 class AperionShield < Formula
   desc "Local MCP guardrail for AI coding agents (Cursor, Claude Code, ...)"
   homepage "https://github.com/AperionAI/shield"
-  version "1.6.2"
+  version "1.7.0"
   license "Elastic-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.6.2/aperion-shield-shield-v1.6.2-aarch64-apple-darwin.tar.gz"
-      sha256 "eeeba9b29eeaa7917c96af8e02646c5e58060deb727fb551c5a735a8ce4a0437"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.7.0/aperion-shield-shield-v1.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "40f1b010494722719cd76761bb70881a28774b2d8fa4a98a38a44ba013791442"
     end
     on_intel do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.6.2/aperion-shield-shield-v1.6.2-x86_64-apple-darwin.tar.gz"
-      sha256 "64d7b2214864057857ef18c744a8b60b667fb122d9f56a99aee3f2c9369465cf"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.7.0/aperion-shield-shield-v1.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cf2b57446bf92cfe2c4398ffa5b48298d009c97b6fcfe6054756ad242481b96a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.6.2/aperion-shield-shield-v1.6.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8198794cd9ab425fd30a7f82c8c14bb3e579be037341f15ea5de692513e94213"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.7.0/aperion-shield-shield-v1.7.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e715fb832a8547e6f9d6ffd0265cd623d7e5d8d253d496eddfcc1e751a37857e"
     end
     on_intel do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.6.2/aperion-shield-shield-v1.6.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e0f876e43330a4c1d0d7355123c76950c33cf5151f07345be3f61fbb721ec29d"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.7.0/aperion-shield-shield-v1.7.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "62867d2c197d1e7713aa9b1fa9f3dbabc83c61ca5edf2ca0cf8bc4a0360a6c2d"
     end
   end
 
