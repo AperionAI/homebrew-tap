@@ -1,28 +1,28 @@
 class AperionShield < Formula
   desc "Local MCP guardrail for AI coding agents (Cursor, Claude Code, ...)"
   homepage "https://github.com/AperionAI/shield"
-  version "1.24.1"
+  version "1.24.2"
   license "Elastic-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.24.1/aperion-shield-shield-v1.24.1-aarch64-apple-darwin.tar.gz"
-      sha256 "1c52b8e86ad388adcd188bd5c8bec6617650d4663aac4fac3140803a7dfc4e06"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.24.2/aperion-shield-shield-v1.24.2-aarch64-apple-darwin.tar.gz"
+      sha256 "c33d07c96a33561ebe3758df4563c768a40c215f1c27eea30f0f18e633382038"
     end
     on_intel do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.24.1/aperion-shield-shield-v1.24.1-x86_64-apple-darwin.tar.gz"
-      sha256 "aaab0bcd2a774a20c79465f0cb86ffb4f49e52d0207188c4fc7812c0b6c2e054"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.24.2/aperion-shield-shield-v1.24.2-x86_64-apple-darwin.tar.gz"
+      sha256 "25e82809e585c3750523165955ad823c9d60677bb38559cd8e299c8e2d4e51ce"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.24.1/aperion-shield-shield-v1.24.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d76d115bada3d3f0c69519112737532f01aa761dcbc818fcba23245caadf6bb4"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.24.2/aperion-shield-shield-v1.24.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "39c6b956f5b507860f1f2a806c8e51a46c5c3c1533c95e2d1b8de55d97f66fb6"
     end
     on_intel do
-      url "https://github.com/AperionAI/shield/releases/download/shield-v1.24.1/aperion-shield-shield-v1.24.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e8f536c92f2bd63bfa90d32eaa766bb4c0a4ee9ad10f40bddb145351a77edfb0"
+      url "https://github.com/AperionAI/shield/releases/download/shield-v1.24.2/aperion-shield-shield-v1.24.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a659519032caae246cd2735fa0ccd8e858f35429ec10316bfc72f704f12eefa5"
     end
   end
 
